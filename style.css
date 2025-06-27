@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f6f2;
+    color: #1a1a1a;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0;
+}
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.slogan {
+    font-weight: 600;
+    color: #666;
+}
+.hero {
+    background: linear-gradient(to right, #f0ede8, #ffffff);
+    text-align: center;
+    padding: 4rem 1rem;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 4rem 1rem;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    padding: 2rem;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0ede8;
+    font-size: 0.9rem;
+}
